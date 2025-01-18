@@ -1,6 +1,6 @@
 # 前言
 
-为了让 decoder 更适应一个特定的分布，我们可以考虑将 SD 的 encoder 不变，而将 decoder 进行微调，这样可以保证不影响 Unet 的性能。之前跑通过 Latent Diffusion Model（LDM）的框架，但过程非常复杂，而且后来代码丢失了，所以我开了新的仓库打算进行记录。
+为了让 decoder 更适应一个特定的分布，我们可以考虑将 SD 的 encoder 冻住，而将 decoder 进行微调，这样可以保证不影响 Unet 的性能。之前跑通过 Latent Diffusion Model（LDM）的框架，但过程非常复杂，而且后来代码丢失了，所以我开了新的仓库打算进行记录。
 
 # 环境
 
