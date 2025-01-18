@@ -136,6 +136,6 @@ CUDA_VISIBLE_DEVICES=3 python main.py --base configs/autoencoder_kl_32x32x4_ldm3
 
 `log` 文件夹下会存下每一次训练的结果。LDM 框架自带了重建前后结果的对比：
 
-![alt text](fig1.png)
+![](fig1.png)
 
-![alt text](fig2.png)
+![](fig2.png)
